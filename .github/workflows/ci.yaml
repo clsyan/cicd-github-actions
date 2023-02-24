@@ -35,7 +35,7 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v4
         with:
-          push: false
+          push: true
           tags: clsyan/node-app-sum:latest
 
       - 
